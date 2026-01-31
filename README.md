@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# CampusEvents – Campus Event Management Platform
 
-## Project info
+CampusEvents is a responsive web application designed to help students explore, organize, and register for campus events through a clean and user-friendly interface.
 
-**URL**: https://lovable.dev/projects/77379c48-16cd-4d9c-bce5-1ce9a83f1220
+The project focuses on **modern front-end development**, reusable UI components, and mobile-first responsive design.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+* **Vite** – Fast development server and build tool
+* **React + TypeScript** – Component-based UI with type safety
+* **Tailwind CSS** – Utility-first responsive styling
+* **React Router** – Page navigation without reload
+* **React Hook Form + Zod** – Form handling and validation
+* **Radix UI & UI utilities** – Accessible and reusable UI primitives
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/77379c48-16cd-4d9c-bce5-1ce9a83f1220) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Features
 
-**Use your preferred IDE**
+* Responsive mobile-first layout
+* Reusable components (Navbar, Cards, Forms, Buttons, Toasts)
+* Event listing and registration interface
+* Clean UI alignment using Flexbox and Grid
+* Form validation and user interaction handling
+* Single Page Application (SPA) navigation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Run Locally
 
-Follow these steps:
+Make sure you have **Node.js** and **npm** installed.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Visit: `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+  components/
+  pages/
+  hooks/
+  lib/
+public/
+index.html
+vite.config.ts
+tailwind.config.ts
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## Purpose of the Project
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project was built to practice:
 
-## How can I deploy this project?
+* Responsive UI design
+* Component reusability
+* Modern CSS layout techniques
+* Clean front-end architecture using React
 
-Simply open [Lovable](https://lovable.dev/projects/77379c48-16cd-4d9c-bce5-1ce9a83f1220) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## Author
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Neetish B Patil**
+B.Tech ECE, REVA University
+Interested in Web Development and UI Engineering
